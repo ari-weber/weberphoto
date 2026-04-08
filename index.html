@@ -6,43 +6,32 @@
   <title>Ari Weber — Photography</title>
   <meta name="description" content="Photography portfolio — landscape, portrait, event, and stylistic photography.">
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- ═══════════════════════════════════════════════
-    ANALYTICS — Paste your snippets here
-    ═══════════════════════════════════════════════ -->
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SFC77JPPCZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SFC77JPPCZ');
-</script>
-
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFC77JPPCZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-SFC77JPPCZ');
+  </script>
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "w8kyhgi5ei");
-</script>
-
+  </script>
 </head>
 <body>
 
-  <!-- ── Navigation ── -->
   <nav>
-    <a href="/" class="nav-logo">Your<span>.</span>Name</a>
+    <a href="/" class="nav-logo">Ari<span>.</span>Weber</a>
     <ul class="nav-links">
       <li><a href="/" class="active">Home</a></li>
-      <li><a href="pages/contact">Contact</a></li>
-      <li></li>
       <li><a href="pages/landscape">Landscape</a></li>
       <li><a href="pages/portrait">Portrait</a></li>
-      <li><a href="pages/event">event</a></li>
+      <li><a href="pages/event">Event</a></li>
       <li><a href="pages/stylistic">Stylistic</a></li>
+      <li><a href="pages/contact">Contact</a></li>
     </ul>
     <button class="nav-toggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
@@ -51,24 +40,19 @@
 
   <main>
 
-    <!-- ── Hero ── -->
     <section class="hero">
       <div class="hero-bg"></div>
-
-      <!-- Replace src values with your actual hero images -->
       <div class="hero-grid">
         <img class="hero-img" src="images/Cave_Sunset_Greece.JPG" alt="Landscape photo"
           onerror="this.style.background='linear-gradient(135deg,#1a1512,#2a2218)';this.style.display='block'">
         <img class="hero-img" src="images/Cassidy_Portrait_B&W.JPG" alt="Portrait photo"
           onerror="this.style.background='linear-gradient(135deg,#0d1218,#1a2030)';this.style.display='block'">
-        <img class="hero-img" src="images/Greece_Party.jpg" alt="event photo"
+        <img class="hero-img" src="images/Greece_Party.jpg" alt="Event photo"
           onerror="this.style.background='linear-gradient(135deg,#120d18,#1e1228)';this.style.display='block'">
         <img class="hero-img" src="images/Plane_Full_Moon.png" alt="Stylistic photo"
           onerror="this.style.background='linear-gradient(135deg,#181210,#2a1e1a)';this.style.display='block'">
       </div>
-
       <div class="hero-overlay"></div>
-
       <div class="hero-content">
         <p class="hero-eyebrow fade-up fade-up-1">Photography Portfolio</p>
         <h1 class="hero-title fade-up fade-up-2">
@@ -84,7 +68,6 @@
       </div>
     </section>
 
-    <!-- ── Categories ── -->
     <section>
       <div class="section-header">
         <div>
@@ -93,11 +76,9 @@
         </div>
         <a href="pages/contact" class="section-link">Book a session →</a>
       </div>
-
       <div class="categories-grid">
 
         <a href="pages/landscape" class="category-card scroll-reveal">
-          <!-- Replace src with your landscape thumbnail -->
           <img src="images/Cave_Sunset_Greece.JPG" alt="Landscape and Architectural Photography"
             onerror="this.style.background='linear-gradient(160deg,#1a2a1a,#2a3a2a)';this.style.display='block';this.style.height='100%'">
           <div class="category-overlay">
@@ -145,12 +126,9 @@
           </div>
         </a>
 
-        <!-- Add more category cards here, or remove the span-2 above if you add a 5th card -->
-
       </div>
     </section>
 
-    <!-- ── Featured shots ── -->
     <section>
       <div class="section-header">
         <div>
@@ -158,11 +136,9 @@
           <h2 class="section-title">Recent favourites</h2>
         </div>
       </div>
-
       <div class="featured-grid">
 
         <div class="featured-item featured-large scroll-reveal">
-          <!-- Replace with your featured image -->
           <img src="images/Elsa_Bridge_Snowing.jpg" alt="Featured photo 1"
             onerror="this.style.background='linear-gradient(160deg,#1a1a2a,#2a2030)';this.style.display='block';this.style.height='100%'">
           <div class="featured-caption">
@@ -174,7 +150,7 @@
           <img src="images/Waxing_Gibbus_Moon.png" alt="Featured photo 2"
             onerror="this.style.background='linear-gradient(160deg,#1a1512,#2a2018)';this.style.display='block';this.style.height='100%'">
           <div class="featured-caption">
-            <p>Waxing Gibbbus — 2026</p>
+            <p>Waxing Gibbous — 2026</p>
           </div>
         </div>
 
@@ -189,21 +165,22 @@
       </div>
     </section>
 
-    <!-- ── Availability strip ── -->
-    <section style="padding: 4rem 3rem; display:flex; align-items:center; justify-content:space-between; border-top: 1px solid var(--border); gap: 2rem; flex-wrap: wrap;">
+    <section class="availability-strip"
+      style="padding: 4rem 3rem; display:flex; align-items:center; justify-content:space-between; border-top: 1px solid var(--border); gap: 2rem; flex-wrap: wrap;">
       <div>
         <p class="section-label" style="margin-bottom:0.5rem;">Currently accepting</p>
-        <h3 style="font-family:var(--serif); font-size:1.8rem; font-weight:300;">New commissions for 2025</h3>
+        <h3 style="font-family:var(--serif); font-size:1.8rem; font-weight:300;">New commissions for 2026</h3>
       </div>
       <a href="pages/contact" class="form-submit" style="text-decoration:none; flex-shrink:0;">
         Get in touch
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
       </a>
     </section>
 
   </main>
 
-  <!-- ── Footer ── -->
   <footer>
     <p class="footer-brand">Ari Weber<span> </span>Photography</p>
     <p class="footer-copy">&copy; 2026 — All rights reserved</p>
