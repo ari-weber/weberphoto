@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name — Photography</title>
+  <meta name="description" content="Photography portfolio — landscape, portrait, concert, and stylistic photography.">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ═══════════════════════════════════════════════
+    ANALYTICS — Paste your snippets here
+    ═══════════════════════════════════════════════ -->
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SFC77JPPCZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SFC77JPPCZ');
+</script>
+
+  <!-- Microsoft Clarity (FREE heatmaps + session recordings)
+    Replace XXXXXXXXXX with your Project ID.
+    Get it at: https://clarity.microsoft.com
+  -->
+  <!-- <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "XXXXXXXXXX");
+  </script> -->
+
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <a href="index.html" class="nav-logo">Your<span>.</span>Name</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+      <li></li>
+      <li><a href="pages/landscape.html">Landscape</a></li>
+      <li><a href="pages/portrait.html">Portrait</a></li>
+      <li><a href="pages/concert.html">Concert</a></li>
+      <li><a href="pages/stylistic.html">Stylistic</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ── -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+
+      <!-- Replace src values with your actual hero images -->
+      <div class="hero-grid">
+        <img class="hero-img" src="images/hero-1.jpg" alt="Landscape photo"
+          onerror="this.style.background='linear-gradient(135deg,#1a1512,#2a2218)';this.style.display='block'">
+        <img class="hero-img" src="images/hero-2.jpg" alt="Portrait photo"
+          onerror="this.style.background='linear-gradient(135deg,#0d1218,#1a2030)';this.style.display='block'">
+        <img class="hero-img" src="images/hero-3.jpg" alt="Concert photo"
+          onerror="this.style.background='linear-gradient(135deg,#120d18,#1e1228)';this.style.display='block'">
+        <img class="hero-img" src="images/hero-4.jpg" alt="Stylistic photo"
+          onerror="this.style.background='linear-gradient(135deg,#181210,#2a1e1a)';this.style.display='block'">
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow fade-up fade-up-1">Photography Portfolio</p>
+        <h1 class="hero-title fade-up fade-up-2">
+          Moments<br><em>worth keeping</em>
+        </h1>
+        <p class="hero-subtitle fade-up fade-up-3">
+          Documentary, portrait, and fine-art photography based in your city.
+          Available for commissions worldwide.
+        </p>
+        <a href="pages/landscape.html" class="hero-cta fade-up fade-up-3">
+          Explore the work →
+        </a>
+      </div>
+    </section>
+
+    <!-- ── Categories ── -->
+    <section>
+      <div class="section-header">
+        <div>
+          <p class="section-label">Collections</p>
+          <h2 class="section-title">Browse by category</h2>
+        </div>
+        <a href="pages/contact.html" class="section-link">Book a session →</a>
+      </div>
+
+      <div class="categories-grid">
+
+        <a href="pages/landscape.html" class="category-card scroll-reveal">
+          <!-- Replace src with your landscape thumbnail -->
+          <img src="images/cat-landscape.jpg" alt="Landscape and Architectural Photography"
+            onerror="this.style.background='linear-gradient(160deg,#1a2a1a,#2a3a2a)';this.style.display='block';this.style.height='100%'">
+          <div class="category-overlay">
+            <p class="category-count">Collection 01</p>
+            <h3 class="category-name">Landscape &amp; Architectural</h3>
+          </div>
+          <div class="category-arrow">
+            <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+
+        <a href="pages/portrait.html" class="category-card scroll-reveal">
+          <img src="images/cat-portrait.jpg" alt="Portrait Photography"
+            onerror="this.style.background='linear-gradient(160deg,#2a1a1a,#3a2a2a)';this.style.display='block';this.style.height='100%'">
+          <div class="category-overlay">
+            <p class="category-count">Collection 02</p>
+            <h3 class="category-name">Portrait</h3>
+          </div>
+          <div class="category-arrow">
+            <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+
+        <a href="pages/concert.html" class="category-card scroll-reveal">
+          <img src="images/cat-concert.jpg" alt="Concert Photography"
+            onerror="this.style.background='linear-gradient(160deg,#1a1a2a,#1e1230)';this.style.display='block';this.style.height='100%'">
+          <div class="category-overlay">
+            <p class="category-count">Collection 03</p>
+            <h3 class="category-name">Concert</h3>
+          </div>
+          <div class="category-arrow">
+            <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+
+        <a href="pages/stylistic.html" class="category-card scroll-reveal" style="grid-column: span 2;">
+          <img src="images/cat-stylistic.jpg" alt="Stylistic Photography"
+            onerror="this.style.background='linear-gradient(160deg,#2a2018,#1a1510)';this.style.display='block';this.style.height='100%'">
+          <div class="category-overlay">
+            <p class="category-count">Collection 04</p>
+            <h3 class="category-name">Stylistic</h3>
+          </div>
+          <div class="category-arrow">
+            <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+
+        <!-- Add more category cards here, or remove the span-2 above if you add a 5th card -->
+
+      </div>
+    </section>
+
+    <!-- ── Featured shots ── -->
+    <section>
+      <div class="section-header">
+        <div>
+          <p class="section-label">Selected Work</p>
+          <h2 class="section-title">Recent favourites</h2>
+        </div>
+      </div>
+
+      <div class="featured-grid">
+
+        <div class="featured-item featured-large scroll-reveal">
+          <!-- Replace with your featured image -->
+          <img src="images/featured-1.jpg" alt="Featured photo 1"
+            onerror="this.style.background='linear-gradient(160deg,#1a1a2a,#2a2030)';this.style.display='block';this.style.height='100%'">
+          <div class="featured-caption">
+            <p>Golden hour over the valley — Sierra Nevada, 2024</p>
+          </div>
+        </div>
+
+        <div class="featured-item scroll-reveal">
+          <img src="images/featured-2.jpg" alt="Featured photo 2"
+            onerror="this.style.background='linear-gradient(160deg,#1a1512,#2a2018)';this.style.display='block';this.style.height='100%'">
+          <div class="featured-caption">
+            <p>Studio portrait session — New York, 2024</p>
+          </div>
+        </div>
+
+        <div class="featured-item scroll-reveal">
+          <img src="images/featured-3.jpg" alt="Featured photo 3"
+            onerror="this.style.background='linear-gradient(160deg,#120d18,#1e1228)';this.style.display='block';this.style.height='100%'">
+          <div class="featured-caption">
+            <p>Front row at the Roundhouse — London, 2024</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── Availability strip ── -->
+    <section style="padding: 4rem 3rem; display:flex; align-items:center; justify-content:space-between; border-top: 1px solid var(--border); gap: 2rem; flex-wrap: wrap;">
+      <div>
+        <p class="section-label" style="margin-bottom:0.5rem;">Currently accepting</p>
+        <h3 style="font-family:var(--serif); font-size:1.8rem; font-weight:300;">New commissions for 2025</h3>
+      </div>
+      <a href="pages/contact.html" class="form-submit" style="text-decoration:none; flex-shrink:0;">
+        Get in touch
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <p class="footer-brand">Your<span>.</span>Name Photography</p>
+    <p class="footer-copy">&copy; 2025 — All rights reserved</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
