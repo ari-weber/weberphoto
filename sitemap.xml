@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://weberphoto.github.io</loc>
-		<lastmod>2026-04-08-T18:09:08-04:00</lastmod>
+		<lastmod>2026-04-08T18:09:08-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://weberphoto.github.io/pages\stylistic</loc>
-		<lastmod>2026-04-08-T22:36:06-04:00</lastmod>
+		<loc>https://weberphoto.github.io/pages/stylistic</loc>
+		<lastmod>2026-04-08T22:36:06-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://weberphoto.github.io/pages\portrait</loc>
-		<lastmod>2026-04-08-T22:36:06-04:00</lastmod>
+		<loc>https://weberphoto.github.io/pages/portrait</loc>
+		<lastmod>2026-04-08T22:36:06-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://weberphoto.github.io/pages\landscape</loc>
-		<lastmod>2026-04-08-T22:36:08-04:00</lastmod>
+		<loc>https://weberphoto.github.io/pages/landscape</loc>
+		<lastmod>2026-04-08T22:36:08-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://weberphoto.github.io/pages\event</loc>
-		<lastmod>2026-04-08-T22:36:04-04:00</lastmod>
+		<loc>https://weberphoto.github.io/pages/event</loc>
+		<lastmod>2026-04-08T22:36:04-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://weberphoto.github.io/pages\contact</loc>
-		<lastmod>2026-04-08-T22:38:16-04:00</lastmod>
+		<loc>https://weberphoto.github.io/pages/contact</loc>
+		<lastmod>2026-04-08T22:38:16-04:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
