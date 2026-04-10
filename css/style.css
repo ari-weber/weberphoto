@@ -238,14 +238,14 @@ main {
 /* ── Category grid ── */
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2px;
   padding: 2px;
 }
 
 .category-card {
   position: relative;
-  aspect-ratio: 4/3;
+  aspect-ratio: 3/4;
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
