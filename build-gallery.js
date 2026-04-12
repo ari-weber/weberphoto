@@ -23,7 +23,7 @@ function collectImages(dir, baseDir) {
       results = results.concat(collectImages(fullPath, baseDir));
     } else if (VALID_EXT.has(path.extname(entry.name))) {
       // Web path: always forward slashes
-      const webPath = fullPath.replace(baseDir, '').replace(/\\/g, '/').replace(/^\//, '');
+      const webPath = 'images/' + fullPath.replace(baseDir, '').replace(/\\/g, '/').replace(/^\//, '');
       // Human-readable label from filename
       const label = path.basename(entry.name, path.extname(entry.name))
         .replace(/[_-]+/g, ' ')
