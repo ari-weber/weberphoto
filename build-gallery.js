@@ -38,6 +38,31 @@ function collectImages(dir, baseDir) {
   return results;
 }
 
+// ── Interleave images across categories ──────────────────────────────────────
+// Groups images by their category folder, then pulls one from each group
+// in rotation so the grid reads: Portrait, Landscape, Event, Stylistic,
+// Portrait, Landscape, Event, Stylistic, ... rather than all of one type
+// clumped together.
+function interleave(images) {
+  const groups = {};
+  for (const img of images) {
+    (groups[img.category] = groups[img.category] || []).push(img);
+  }
+  const buckets = Object.values(groups);
+  const result  = [];
+  let remaining = true;
+  while (remaining) {
+    remaining = false;
+    for (const bucket of buckets) {
+      if (bucket.length > 0) {
+        result.push(bucket.shift());
+        remaining = true;
+      }
+    }
+  }
+  return result;
+}
+
 // ── Build the gallery HTML block ─────────────────────────────────────────────
 function buildGalleryHTML(images) {
   if (images.length === 0) {
@@ -88,9 +113,10 @@ function inject(html, block) {
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
-const images = collectImages(IMAGE_DIR, IMAGE_DIR);
-console.log(`Found ${images.length} image(s) in images/`);
-images.forEach(i => console.log(`  ${i.webPath}`));
+const raw     = collectImages(IMAGE_DIR, IMAGE_DIR);
+const images  = interleave(raw);
+console.log(`Found ${images.length} image(s) in images/ (interleaved across ${Object.keys(images.reduce((a,i)=>(a[i.category]=1,a),{})).length} categories)`);
+images.forEach(i => console.log(`  [${i.category}] ${i.webPath}`));
 
 const html    = fs.readFileSync(INDEX_FILE, 'utf8');
 const block   = buildGalleryHTML(images);
